@@ -1,0 +1,56 @@
+{
+  "repository": "https://github.com/thisiscaau/thisiscaau.github.io",
+  "commit": "bde73cbbf0bfc48105d5963b0e54a2b0387ca9d3",
+  "posts": [
+    {
+      "source": "Cây DSU (DSU Tree).md",
+      "slug": "dsu-tree",
+      "legacyPath": "/posts/Cây DSU (DSU Tree).html",
+      "published": true
+    },
+    {
+      "source": "merging-dp-segtree.md",
+      "slug": "merging-dp-segtree",
+      "legacyPath": "/posts/merging-dp-segtree.html",
+      "published": false
+    },
+    {
+      "source": "notes-on-fft.md",
+      "slug": "notes-on-fft",
+      "legacyPath": "/posts/notes-on-fft.html",
+      "published": false
+    },
+    {
+      "source": "on-segment-tree.md",
+      "slug": "on-segment-tree",
+      "legacyPath": "/posts/on-segment-tree.html",
+      "published": true
+    },
+    {
+      "source": "shortest-path-problems.md",
+      "slug": "shortest-path-problems",
+      "legacyPath": "/posts/shortest-path-problems.html",
+      "published": true
+    },
+    {
+      "source": "xor-basis.md",
+      "slug": "xor-basis",
+      "legacyPath": "/posts/xor-basis.html",
+      "published": true
+    },
+    {
+      "source": "2021.md",
+      "slug": "viet-cho-2022",
+      "legacyPath": "/posts/2021.html",
+      "recoveredFromCommit": "8c288899c6f4315b5fbc8c60f8ddee8e33c099f9",
+      "published": true
+    },
+    {
+      "source": "lah2020.md",
+      "slug": "new-year-resolution",
+      "legacyPath": "/posts/lah2020.html",
+      "recoveredFromCommit": "55b1cf6a3499e886aaac3e13065b7058c3072556",
+      "published": true
+    }
+  ]
+}
