@@ -27,14 +27,6 @@ Run `pnpm build` to create static output in `dist/client`. For a project subpath
 
 The workflow detects root and project site paths. [GitHub’s workflow documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages).
 
-## Migrated writing
-
-The collection contains six published posts and two unpublished posts. `content/migration.json` records source files and commits. Original bodies, titles, timestamps, tags, and languages are preserved; referenced images are bundled locally. The DP note was removed at your request.
-
-Equations render with KaTeX; heading IDs preserve section links. Published posts with a `legacyPath` also retain their old `.html` URLs in the static build. Changing `published` to false excludes those aliases too.
-
-The two recovered diaries are “Viết cho 2022” and “Nghĩ gì viết nấy - New year resolution”. The latter retains its original front-matter date, normalized from `2020-02-1` to `2020-02-01`; its text refers retrospectively to 2020, so the original date may need your correction.
-
 ## Artwork
 
 Claude Monet, *Water Lilies*, 1919. Public-domain reproduction from [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Water-Lily_Pond_1919_Claude_Monet_Metropolitan.jpg). [Museum record](https://www.metmuseum.org/art/collection/search/438008).
