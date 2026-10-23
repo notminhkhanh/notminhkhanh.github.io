@@ -4,6 +4,8 @@ date: "2026-09-06"
 category: "Notes"
 excerpt: "One sentence about this post."
 published: false
+# cover: "/images/covers/my-post.webp"
+# coverAlt: "Describe the image."
 ---
 
 Start with the thought, question, or observation that made you want to write.

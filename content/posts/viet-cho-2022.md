@@ -7,6 +7,8 @@ published: true
 tags: ["random-thoughts"]
 originalDate: "2021-12-21 12:00:00"
 legacyPath: "/posts/2021.html"
+cover: "/images/covers/viet-cho-2022.webp"
+coverAlt: "Winter dusk over a Hanoi lake, with warm lights reflected in the water."
 ---
 Tới tôi ở tương lai hoặc không ai cả,
 

@@ -1,12 +1,14 @@
 ---
 title: "Merging DP on Segment Tree"
-date: "2020-08-21"
+date: "2021-08-21"
 category: "algorithm, data structure"
 excerpt: "Collective Notes"
 published: false
 tags: ["algorithm", "data structure"]
-originalDate: "2020-08-21 23:59:59"
+originalDate: "2021-08-21 23:59:59"
 legacyPath: "/posts/merging-dp-segtree.html"
+cover: "/images/covers/merging-dp-segtree.webp"
+coverAlt: "Two robots merging state tiles from child nodes into their parent."
 ---
 ## Codeforces 1380F
 We realise that the maximum value of the sum of 2 digits is 18 - which only consists of 2

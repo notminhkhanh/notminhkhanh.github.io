@@ -30,3 +30,5 @@ The workflow detects root and project site paths. [GitHub’s workflow documenta
 ## Artwork
 
 Claude Monet, *Water Lilies*, 1919. Public-domain reproduction from [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Water-Lily_Pond_1919_Claude_Monet_Metropolitan.jpg). [Museum record](https://www.metmuseum.org/art/collection/search/438008).
+
+Post covers were generated with OpenAI image generation, using topic-specific illustrations for technical writing and scenes inspired by the diary entries. Image briefs are in [cover credits](public/images/covers/credits.json). See [WRITING.md](WRITING.md#cover-images) to replace or add a cover.

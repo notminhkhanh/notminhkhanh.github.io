@@ -1,0 +1,39 @@
+{
+  "generator": "OpenAI built-in image generation",
+  "generated": "2026-10-23",
+  "style": "Technical: colored pencil and gouache on ivory, muted green, blue and ochre. Diaries: impressionist oil painting, muted greens and slate blue, warm light. Landscape 3:2, no frame, watermark or prose.",
+  "images": [
+    {
+      "file": "dsu-tree.webp",
+      "subject": "A small illustrated workshop where connected clusters of wooden graph nodes are joined into a branching reconstruction tree. Clear nodes and thin connecting edges, with clustered components at the bottom and merged parent nodes above. A tiny pencil-wielding robot arranging the connections. No numbers or labels."
+    },
+    {
+      "file": "xor-basis.webp",
+      "subject": "A charming small robot mathematician arranging rows of binary tiles (only 0 and 1) on an ivory workbench. Three independent colored rows combine into a fourth row, evoking Gaussian elimination and XOR. Loose floating binary tiles and a simple vector-arrow motif. Do not present a formal equation that could be mathematically wrong."
+    },
+    {
+      "file": "shortest-path-problems.webp",
+      "subject": "A tiny courier robot tracing a single ochre route through a network of forest-green circular nodes and fine blue-gray edges. Several alternative routes are muted; the chosen continuous route is clearly highlighted between two larger endpoints. A playful graph-algorithm illustration, not a city or landscape. No edge numbers."
+    },
+    {
+      "file": "on-segment-tree.webp",
+      "subject": "An illustrated binary segment tree made of connected small wooden tiles above a row of eight contiguous array blocks. Parent brackets group contiguous halves and quarters; one interval of blocks is highlighted ochre. A tiny robot librarian points at the grouped blocks. The tree is the primary subject; no text or numbers."
+    },
+    {
+      "file": "merging-dp-segtree.webp",
+      "subject": "Two little robots assembling colored state tiles from two child tree nodes into a single parent node above them. Clearly visible binary-tree connections and matching small grids of tiles at each node; merging partial computations. Friendly editorial algorithm illustration, no text or formal equations."
+    },
+    {
+      "file": "notes-on-fft.webp",
+      "subject": "A curious little robot at a workbench watching a complex teal wave split into three simple sinusoidal ribbons, with a small row of vertical frequency bars to the right. Clear signal-processing motifs: waves, components, spectrum. No numbers, labels or equations."
+    },
+    {
+      "file": "viet-cho-2022.webp",
+      "subject": "A quiet Hanoi-inspired lakeside at winter dusk, a bare branch and tiny warm windows across the water; reflective, wistful, with room for a new beginning. No identifiable people."
+    },
+    {
+      "file": "new-year-resolution.webp",
+      "subject": "An open unmarked notebook beside a window overlooking a softly painted Vietnamese city street at morning, a small cup of tea; hopeful and intimate, no readable writing."
+    }
+  ]
+}

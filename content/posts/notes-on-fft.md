@@ -1,12 +1,14 @@
 ---
 title: "Fast Fourier Transform"
-date: "2020-08-22"
+date: "2021-08-22"
 category: "algorithm, math"
 excerpt: "Collective Notes"
 published: false
 tags: ["algorithm", "math"]
-originalDate: "2020-08-22 23:59:59"
+originalDate: "2021-08-22 23:59:59"
 legacyPath: "/posts/notes-on-fft.html"
+cover: "/images/covers/notes-on-fft.webp"
+coverAlt: "A robot separating a complex wave into simpler waves and a frequency spectrum."
 ---
 ## Template
 ```c++

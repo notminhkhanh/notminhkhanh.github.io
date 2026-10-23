@@ -1,12 +1,14 @@
 ---
 title: "Nghĩ gì viết nấy - New year resolution"
-date: "2020-02-01"
+date: "2021-02-01"
 category: "Diary"
 excerpt: "Suy ngẫm về năm vừa qua"
 published: true
 tags: ["random"]
-originalDate: "2020-02-1 23:59:59"
+originalDate: "2021-02-1 23:59:59"
 legacyPath: "/posts/lah2020.html"
+cover: "/images/covers/new-year-resolution.webp"
+coverAlt: "An open notebook and tea by a window overlooking Hanoi in morning light."
 ---
 Tính đến nay đã được một học kỳ từ khi tôi bắt đầu hành trình theo học của mình tại một nơi 
 xa nhà.Giờ đây ngồi lại thư thãn những phút giây cuối năm, tôi mới thấy rằng đây là lúc thúc hợp 

@@ -7,6 +7,8 @@ published: true
 tags: ["algorithm"]
 originalDate: "2023-01-13 23:59:59"
 legacyPath: "/posts/Cây DSU (DSU Tree).html"
+cover: "/images/covers/dsu-tree.webp"
+coverAlt: "A small robot building a reconstruction tree from connected groups of nodes."
 ---
 ## Lời nói đầu
 

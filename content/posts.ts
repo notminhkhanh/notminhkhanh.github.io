@@ -1,4 +1,4 @@
-import { readFileSync, readdirSync } from 'node:fs';
+import { existsSync, readFileSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
 import matter from 'gray-matter';
 import { Marked } from 'marked';
@@ -27,10 +27,18 @@ export function getPosts() {
       if (typeof data[key] !== 'string' || !data[key].trim()) throw new Error(`${name}: ${key} must be a non-empty string. Quote dates as "YYYY-MM-DD".`);
     }
     if (!/^\d{4}-\d{2}-\d{2}$/.test(data.date) || Number.isNaN(Date.parse(data.date)) || new Date(data.date).toISOString().slice(0,10) !== data.date) throw new Error(`${name}: invalid date`);
+    const cover = typeof data.cover === 'string' ? data.cover.trim() : '';
+    if (cover && (!/^\/images\/[a-zA-Z0-9_/-]+\.(webp|png|jpe?g|avif)$/.test(cover) || !existsSync(join(process.cwd(), 'public', cover)))) throw new Error(`${name}: cover must point to an existing image in public/images`);
+    if (cover && (typeof data.coverAlt !== 'string' || !data.coverAlt.trim())) throw new Error(`${name}: add a description in coverAlt`);
+    const thumbnailPath = cover.replace(/\.[^.]+$/, '-thumb.webp');
+    const thumbnail = cover && existsSync(join(process.cwd(), 'public', thumbnailPath)) ? thumbnailPath : cover;
     return [{
       slug, title: data.title as string, date: data.date as string,
       category: data.category as string, excerpt: data.excerpt as string,
       sample: data.sample === true,
+      cover: cover ? `${process.env.BASE_PATH || ''}${cover}` : '',
+      thumbnail: thumbnail ? `${process.env.BASE_PATH || ''}${thumbnail}` : '',
+      coverAlt: cover ? data.coverAlt as string : '',
       displayDate: new Date(`${data.date}T12:00:00Z`).toLocaleDateString('en-US', {month:'short', day:'numeric', year:'numeric', timeZone:'UTC'}),
       minutes: Math.max(1, Math.ceil(content.trim().split(/\s+/).length / 220)),
       // Only repository-owned Markdown is read here; no visitor-submitted HTML.
