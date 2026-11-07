@@ -3,7 +3,7 @@ title: "Shortest Paths, Beyond the Graph"
 date: "2021-05-22"
 category: "algorithm, collective"
 excerpt: "Dijkstra, negative cycles, and turning systems of inequalities into graphs."
-published: true
+published: false
 tags: ["algorithm", "collective"]
 originalDate: "2021-05-22 23:59:59"
 legacyPath: "/posts/shortest-path-problems.html"

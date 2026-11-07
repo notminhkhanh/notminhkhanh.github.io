@@ -3,7 +3,7 @@ title: "XOR Basis: từ bitmask đến không gian vector"
 date: "2021-08-29"
 category: "algorithm, math"
 excerpt: "Khử Gauss trên bitmask, kiểm tra khả năng biểu diễn và đếm các tập con có XOR cho trước."
-published: true
+published: false
 tags: ["algorithm", "math"]
 originalDate: "2021-08-29 23:59:59"
 legacyPath: "/posts/xor-basis.html"

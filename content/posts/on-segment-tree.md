@@ -3,7 +3,7 @@ title: "Using Segment Trees Effectively"
 date: "2021-05-21"
 category: "algorithm, data structure"
 excerpt: "Choosing the right node summary, composing lazy updates, and the Norma problem."
-published: true
+published: false
 tags: ["algorithm", "data structure"]
 originalDate: "2021-05-21 23:59:59"
 legacyPath: "/posts/on-segment-tree.html"
